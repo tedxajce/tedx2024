@@ -11934,9 +11934,7 @@ i.bg-color-secondary {
 }
 
 .de-pricing-s1 h3 span{
-  font-size: 20px;
-  display: block;
-  color:var(--primary-color);
+  text-transform: lowercase;
 }
 
 .de-pricing-s1 .d-deco-top{
