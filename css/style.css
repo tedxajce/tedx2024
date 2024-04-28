@@ -11972,10 +11972,15 @@ i.bg-color-secondary {
   line-height: 1.1em;
 }
 
+<<<<<<< HEAD
 .de-pricing-s1 h3 span {
   font-size: 20px;
   display: block;
   color: var(--primary-color);
+=======
+.de-pricing-s1 h3 span{
+  text-transform: lowercase;
+>>>>>>> 408d8b9c8fd33f7989903c1f8f7d783a1563a2c1
 }
 
 .de-pricing-s1 .d-deco-top {
