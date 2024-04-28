@@ -8220,6 +8220,10 @@ a.btn-right {
 
 /* testimonial
     /* ================================================== */
+#more {
+  display: none;
+}
+
 
 .de_testi {
   display: block;
@@ -8240,28 +8244,6 @@ a.btn-right {
   margin-right: 0px;
 }
 
-/*
-.de_testi blockquote:before {
-  font-family: FontAwesome;
-  content: "\f10d";
-  padding-bottom: 10px;
-  font-size: 20px;
-  display: inline-block;
-  padding: 10px 20px 10px 20px;
-  font-style: normal;
-  background: #000;
-  position: absolute;
-  left: 15px;
-  font-weight: normal;
-}
-*/
-
-.de_testi blockquote p {
-  font-size: 16px;
-  line-height: 1.7em;
-  font-weight: normal;
-  color: white
-}
 
 .de_testi_by {
   font-style: normal;
@@ -8289,7 +8271,7 @@ a.btn-right {
 }
 
 .de_title span {
-  font-w: bold;
+  font-weight: bold;
 }
 
 .de_testi_pic {
@@ -13089,7 +13071,6 @@ i.big {
 }
 
 .owl-stage-outer .feature-box-type-2 {
-  overflow: none;
   margin: 30px 0 30px 0;
 }
 
@@ -14550,9 +14531,6 @@ a.read_more i {
   opacity: 1;
 }
 
-.owl-stage {
-  overflow: none;
-}
 
 /* close new table */
 
