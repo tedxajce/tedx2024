@@ -1172,19 +1172,16 @@
             <div class="owl-carousel owl-theme wow fadeInUp" id="testimonial-carousel">
               <div class="item">
                 <div class="de_testi type-2">
-                  <p>Organizing the first-ever TEDx event at our college was an
-                    incredibly exhilarating experience.We faced numerous challenges from the
-                    brainstorming
-                    to the execution phase, which only added to the excitement.<span id="dots">...</span>
-                    <span id="more"> As the event
+                  <p class="p_test">Organizing the first-ever TEDx event at our college was an
+                    incredibly exhilarating experience.We faced numerous challenges from the brainstorming to the execution phase, which only added to the excitement. As the event<span class="dots1"> ...</span>
+                    <span class="more1"> 
                       date approached, a mix of nerves and anticipation enveloped the
                       team. On the day of the event, we felt an overwhelming sense
                       of pride and achievement as everything fell seamlessly into
                       place.
                     </span>
-
                   </p>
-                  <button onclick="myReadFunction()" id="myBtn">Read more</button>
+                  <button onclick="myReadFunction1()" class="myBtn1">Read more</button>
                   <div class="de_testi_by d-flex flex-rowalign-items-center">
                     <img alt="" class="rounded-circle"
                       src="https://github.com/tedxajce/tedx2024/assets/103378028/5c2610f4-3e8f-4392-8c05-9af514cb9f80">
@@ -1199,18 +1196,18 @@
               </div>
               <div class="item">
                 <div class="de_testi type-2">
-                  <p>“I have been lucky enough to be part of the first two editions
+                  <p class="p_test">“I have been lucky enough to be part of the first two editions
                     of TEDxAJCE. First as a member of the organising team and then
                     as the principal organiser. It remains as one of the
-                    highlights of my time at Amal Jyothi. <span id="dots">...</span>
-                    <span id="more">Running a TEDx event is
+                    highlights of my time at Amal Jyothi. <span class="dots2">Runnin ...</span>
+                    <span class="more2">Running a TEDx event is
                       like running a company. There are various departments like
                       finances, marketing, logistics etc. that you need to take care
                       of. The memories of TEDxAJCE will remain with me forever and I
                       am always looking forward to newer editions.”
                     </span>
-                    <button onclick="myReadFunction()" id="myBtn">Read more</button>
                   </p>
+                  <button onclick="myReadFunction2()" class="myBtn2">Read more</button>
 
                   <div class="de_testi_by d-flex flex-rowalign-items-center">
                     <img alt="" class="rounded-circle"
@@ -1225,20 +1222,20 @@
               </div>
               <div class="item">
                 <div class="de_testi type-2">
-                  <p> Organizing a TEDx event is no easy feat. It requires several
+                  <p class="p_test"> Organizing a TEDx event is no easy feat. It requires several
                     months of preparation and planning. And when the pandemic hit,
-                    things weren't exactly looking good.<span id="dots">...</span>
-                    <span id="more"> We had no choice but to
-                      work online. However, we had an amazing team of volunteers
+                    things weren't exactly looking good. We had no choice but to
+                    work online. However, we had an <span class="dots3"> ...</span>
+                    <span class="more3">amazing team of volunteers
                       spread across the world, and I have to say, we did pull off
                       something remarkable. It was amazing to see how a group of
                       dedicated people can achieve something when we all have one
                       mission.
                     </span>
-                    <button onclick="myReadFunction()" id="myBtn">Read more</button>
                   </p>
+                  <button onclick="myReadFunction3()" class="myBtn3">Read more</button>
 
-                  <div class="de_testi_by d-flex flex-rowalign-items-center">
+                  <div class="de_testi_by d-flex flex-row align-items-center">
                     <img alt="" class="rounded-circle"
                       src="https://github.com/tedxajce/tedx2024/assets/103378028/1b945d6b-6241-4e7a-a8ef-13833c3401ad">
                     <div class="d-flex flex-column justify-content-center align-items-start de_title">
@@ -1246,32 +1243,30 @@
                       <span>TEDxAJCE Organizer | 2021</span>
                     </div>
                   </div>
-
                 </div>
               </div>
+              <div class="item">
+                <div class="de_testi type-2">
+                  <p class="p_test"> What started as a humble role in the editorial team during the previous event soon transformed into a fulfilling journey of leadership and discovery. Being a TEDx organizer was more than just a role—it was a <span class="dots4">transfo ...</span>
+                    <span class="more4">transformative journey  of personal and professional growth. It opened my eyes to a myriad of ideas and perspectives that I may not have encountered otherwise. Each talk, each interaction, served as a catalyst for learning and self-discovery.
+                    </span>
+                  </p>
+                  <button onclick="myReadFunction4()" class="myBtn4">Read more</button>
 
+                  <div class="de_testi_by d-flex flex-row align-items-center">
+                    <img alt="" class="rounded-circle"
+                      src="https://github.com/tedxajce/tedx2024/assets/35528895/6f66a8f9-05cb-40b2-bb23-80cf1e343488">
+                    <div class="d-flex flex-column justify-content-center align-items-start de_title">
+                      <span>Adithya Krishnan</span>
+                      <span>TEDxAJCE Organizer | 2023</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <script>
-        function myReadFunction() {
-          var dots = document.getElementById("dots");
-          var moreText = document.getElementById("more");
-          var btnText = document.getElementById("myBtn");
-
-          if (dots.style.display === "none") {
-            dots.style.display = "block";
-            btnText.innerHTML = "Read more";
-            moreText.style.display = "none";
-          } else {
-            console.log("shit")
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less";
-            moreText.style.display = "inline";
-          }
-        }
-      </script>
 
       <!-- gallery - @adhilsalim -->
       <section id="section-gallery" class="jarallax">
@@ -1534,6 +1529,7 @@
   <!-- Javascript Files
     ================================================== -->
   <script src="js/plugins.js"></script>
+  <script src="js/scripts.js"></script>
   <script src="js/designesia.js"></script>
   <script src="js/custom-marquee.js"></script>
   <script src="js/jquery.countdown.js"></script>

@@ -8178,7 +8178,33 @@ a.btn-right {
 
 /* testimonial
     /* ================================================== */
-#more {
+.p_test{
+  margin-bottom: 10px;
+}
+.myBtn1, .myBtn2, .myBtn3, .myBtn4  {
+  background-color: transparent;
+  font-weight: 600;
+  color: red;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.more1 {
+  display: none;
+}
+
+.more2 {
+  display: none;
+}
+
+.more3 {
+  display: none;
+}
+
+.more4 {
   display: none;
 }
 
