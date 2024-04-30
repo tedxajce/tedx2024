@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const carousel = $("#testimonial-carousel").owlCarousel({
-        loop: false, // Disable infinite loop
+        loop: false,
         margin: 30,
         responsiveClass: true,
         responsive: {
@@ -24,13 +24,13 @@ function myReadFunction1() {
     var btnText = document.getElementsByClassName("myBtn1")[0];
 
     if (dots.style.display === "none") {
-        dots.style.display = "block";
+        dots.style.display = "inline";
         btnText.innerHTML = "Read more";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
+        moreText.style.display = "block";
     }
 }
 
@@ -40,13 +40,13 @@ function myReadFunction2() {
     var btnText = document.getElementsByClassName("myBtn2")[0];
 
     if (dots.style.display === "none") {
-        dots.style.display = "block";
+        dots.style.display = "inline";
         btnText.innerHTML = "Read more";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
+        moreText.style.display = "block";
     }
 }
 
@@ -56,13 +56,13 @@ function myReadFunction3() {
     var btnText = document.getElementsByClassName("myBtn3")[0];
 
     if (dots.style.display === "none") {
-        dots.style.display = "block";
+        dots.style.display = "inline";
         btnText.innerHTML = "Read more";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
+        moreText.style.display = "block";
     }
 }
 
@@ -72,12 +72,12 @@ function myReadFunction4() {
     var btnText = document.getElementsByClassName("myBtn4")[0];
 
     if (dots.style.display === "none") {
-        dots.style.display = "block";
+        dots.style.display = "inline";
         btnText.innerHTML = "Read more";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
+        moreText.style.display = "block";
     }
 }
