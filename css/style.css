@@ -11999,6 +11999,8 @@ i.bg-color-secondary {
 
 .de-pricing-s1 {
   position: relative;
+  background-image: url("../images/misc/waves.png");
+  overflow: hidden;
 }
 
 .de-pricing-s1 .d-inner {
@@ -12041,9 +12043,18 @@ i.bg-color-secondary {
 
 .de-pricing-s1 img.d-image-deco {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: -60px;
+  bottom: -90px;
   width: 60px;
+}
+.pricing-deco{
+  position: absolute;
+  left: -60px;
+  bottom: -90px;
+  width: 60px;
+  min-height: 150px;
+  min-width: 200px;
+  rotate: 120deg;
 }
 
 .de-pricing-s1 .d-content {
@@ -19100,3 +19111,42 @@ img {
 }
 
 /* about sec end */
+
+}
+.hero-abs{
+  min-height: 100px;
+  min-width: 100px;
+  rotate: 120deg;
+}
+
+.moving-dots {
+  position: relative;
+  animation: glide 6s linear infinite alternate;
+}
+.moving-vertical{
+  position: relative;
+  animation: glide-vertical 6s linear infinite alternate;
+}
+@keyframes glide {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes glide-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
