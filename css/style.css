@@ -18455,7 +18455,7 @@ img {
   h1.ultra-big,
   h1.ultra-big .text-line,
   h1.ultra-big-2{
-    font-size: 13.5vw;
+    font-size: 10.5vw;
     line-height: 13.5vw;
     padding: 0;
   }
@@ -18865,3 +18865,108 @@ img {
 
   .container-timeline ul li::before {
     left: 0
+  }
+
+  /* about sec start */
+.about-sec {
+  padding: 40px 0px;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-sec .shape {
+    display: none;
+  }
+}
+
+.about-sec .shape {
+  position: absolute;
+  bottom: -40%;
+  right: 0px;
+}
+
+.about-sec .shape img {
+  width: 300px;
+  height: 600px;
+}
+
+.about-sec .about-items-wrap {
+  position: relative;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb {
+  position: relative;
+  background-size: cover;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb img {
+  width: 100%;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb .item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  width: 80%;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb .item-content .content-title .date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb .item-content .content-title .title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb .item-content .about-video .video-btn1 {
+  width: 40px;
+  height: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ddddef5c;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb .item-content .about-video .video-btn1 i {
+  color: #fff;
+}
+
+.about-sec .about-items-wrap .about-item .item-thumb .item-content .about-video .video-btn1:hover {
+  background-color: #eb0028;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.about-sec .about-items-wrap .dots {
+  position: absolute;
+  bottom: -35px;
+  left: -70px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* about sec end */
