@@ -12065,7 +12065,7 @@ i.bg-color-secondary {
 }
 
 .de-pricing-s1 .d-price:before {
-  content: '$';
+  content: '';
   font-size: 20px;
 }
 
