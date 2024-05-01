@@ -18840,6 +18840,10 @@ img {
     column-gap: 20px;
   }
 
+  #gallery-description {
+    font-size: 15px !important;
+  }
+
 }
 
 /* -------------------------------------------------- 
