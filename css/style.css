@@ -19118,18 +19118,33 @@ img {
   /* about sec end */
 
 }
-
+.speaker-card{
+  max-height: 168.5px;
+}
+@media screen and (min-width: 1024px) {
+  .speaker-card {
+    max-height: 234.5px ;
+  }
+  
+}
 .hero-abs {
   min-height: 100px;
   min-width: 100px;
   rotate: 120deg;
 }
 
-.speaker-deco{
+.deco-div {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.speaker-deco {
   min-height: 100px;
   min-width: 100px;
   rotate: 120deg;
 }
+
 .moving-dots {
   position: relative;
   animation: glide 6s linear infinite alternate;
@@ -19137,9 +19152,23 @@ img {
 
 .moving-vertical {
   position: relative;
-  animation: glide-vertical 6s linear infinite alternate;
+  animation: rotate-text 6s linear infinite;
 }
 
+.moving-vertical1 {
+  position: absolute;
+  top: 270px;
+  left: 880px;
+  animation: rotate-text 6s linear infinite;
+  rotate: -112deg;
+}
+.moving-vertical2 {
+  position: absolute;
+  top: -860px;
+  left: -920px;
+  animation: rotate-text 6s linear infinite;
+  rotate: -120deg;
+}
 @keyframes glide {
   0% {
     transform: translate(0, 0);
@@ -19151,6 +19180,19 @@ img {
 
   100% {
     transform: translate(0, 0);
+  }
+}
+@keyframes rotate-text {
+  0% {
+    transform: scale(0.6);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.6);
   }
 }
 
