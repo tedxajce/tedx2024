@@ -17776,17 +17776,6 @@ img {
 
 @media only screen and (max-width: 992px) {
 
-  .float-text{  
-    display: none;
-  }
-  .hero-date
-  {
-    display: flex;
-  }
-  #section-about p{
-    line-height: 1em;
-  }
-
   header .logo-main {
     display: none;
   }
